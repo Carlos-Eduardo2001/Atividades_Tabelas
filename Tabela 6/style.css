@@ -1,0 +1,36 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+table{
+    width: 100%;
+    max-width: 1500px;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #d0d7de;
+}
+
+th{
+    padding: 15px;
+    background-color: rgb(222, 232, 238);
+    color: rgb(70, 103, 122);
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid #d0d7de; /* Linhas de grade do cabeçalho */
+
+}
+td{
+padding: 10px;
+text-align: left;
+color:rgb(119, 121, 121);
+border: 1px solid #d0d7de;
+
+
+}
+.verde{
+    color:green;
+}
+.vermelho{
+    color:red;
+}

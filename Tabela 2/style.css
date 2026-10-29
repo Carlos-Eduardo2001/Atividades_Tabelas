@@ -1,0 +1,30 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:snow;
+}
+.tabela{
+    width: 100%;
+    max-width: 700px;
+    background-color: #0c0c0c;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #2a2a2a;
+}
+th{
+    padding:20px;
+    text-align: left;
+    font-weight: bold;
+    background-color: rgb(41, 41, 41);
+    border-bottom: 1px solid #2a2a2a;
+}
+td{
+    padding: 20px;
+      text-align: left;
+      border-bottom: 1px solid #2a2a2a;
+}
+.status-ativo {
+      color: #2ecc71;
+    }
+tbody tr:nth-child(even){
+    background-color: rgb(41, 41, 41);
+}
